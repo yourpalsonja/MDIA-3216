@@ -6,6 +6,7 @@
 .butterfly, .planet, .tada {
     position: absolute;
     font-size: 75px;
+    animation: rotate 3s ease infinite;
 }
 
 .butterfly {
@@ -21,4 +22,13 @@
 .tada {
     top: 35%;
     left: 75%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

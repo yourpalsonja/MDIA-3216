@@ -78,44 +78,6 @@
     padding: 10px;
 }
 
-.cssSection {
-    position: relative;
-    height: 60vh;
-}
-
-.butterfly, .planet, .tada {
-    position: absolute;
-    animation: cssRotate 3s ease infinite normal;
-    font-size: 75px;
-}
-
-.butterfly {
-    top: 25%;
-    left: 25%;
-}
-
-.planet {
-    top: 40%;
-    left: 50%;
-}
-
-.tada {
-    top: 35%;
-    left: 75%;
-}
-
-@keyframes cssRotate {
-    0% {
-		transform: rotate(0);
-	}
-
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
-
-
 /* Header animations */
 @keyframes orange-spin {
 	0% {
@@ -129,7 +91,7 @@
 
 @media (prefers-reduced-motion) {
     .flipper { 
-        animation: none;
+        animation-play-state: paused;
     }
 }
 
