@@ -1,0 +1,24 @@
+.cssSection {
+    position: relative;
+    height: 60vh;
+}
+
+.butterfly, .planet, .tada {
+    position: absolute;
+    font-size: 75px;
+}
+
+.butterfly {
+    top: 25%;
+    left: 25%;
+}
+
+.planet {
+    top: 40%;
+    left: 50%;
+}
+
+.tada {
+    top: 35%;
+    left: 75%;
+}
